@@ -1,5 +1,6 @@
 import React from "react";
+import Theme from "./global/themes/Theme";
 
-const App = () => <div>hello world</div>;
+const App = () => <Theme>hello world</Theme>;
 
 export default App;
